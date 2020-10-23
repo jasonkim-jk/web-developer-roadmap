@@ -1,6 +1,8 @@
-# SSH Command
+# SSH
+SSH is secure shell protocol
 
 ## How SSH Works
+How Secure Shell Works (SSH) - Computerphile: https://youtu.be/ORcvSkgdA58
 #### 1. Symmetric Encryption
   - Key Excahnge Algorithm
   - Use one secret key for encryption and decryption.
@@ -28,5 +30,29 @@ $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -f "id_rsa_github"
 #### Adding my ssh key to ssh-agent
 ```shell
 $ ssh-add ~/.ssh/id_rsa_github
-# Identity added: /path/id_rsa_github  <-- check this message 
+  Identity added: /path/id_rsa_github  <-- check this message 
+
+# to check added the key list
+$ ssh-add -l
+```
+
+## Set up SSH on GitHub
+#### Check my public key and copy it
+```shell
+$ cat id_rsa_github.pub
+```
+#### Go to GitHub > Setting > SSH and GPG keys > "New SSH Keys" > add Title and paste the content of the id_rsa_github.pub > Add SSH Key
+- Setup-ssh-for-github: https://github.com/antonykidis/Setup-ssh-for-github/blob/master/Setup-ssh-on-github.pdf
+
+## Git clone with SSH key
+#### Copy a repo url with the ssh option
+```shell
+$ git clone {ssh git clone url}
+```
+
+## How to Connect
+```shell
+$ ssh {user_name}@{host_ip}
+or
+$ ssh -i {key_path} {user_name}@{host_ip}
 ```
