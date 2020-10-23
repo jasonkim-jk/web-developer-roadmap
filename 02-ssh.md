@@ -52,7 +52,6 @@ $ git clone {ssh git clone url}
 
 ## Switching remote URLs from HTTPS to SSH
 Link: https://docs.github.com/en/free-pro-team@latest/github/using-git/changing-a-remotes-url#switching-remote-urls-from-https-to-ssh
-#### Copy a repo url with the ssh option
 ```shell
 # Change your remote's URL from HTTPS to SSH with the git remote set-url command.
 $ git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
