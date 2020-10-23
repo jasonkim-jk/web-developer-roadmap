@@ -8,7 +8,7 @@ How Secure Shell Works (SSH) - Computerphile: https://youtu.be/ORcvSkgdA58
   - Use one secret key for encryption and decryption.
   - (Host) "Helloooooo" with the secret key <---> "EI320+@2" <---> "Helloooooo" with the same key (Client)
 #### 2. Asymmetric Encryption
-  - Difiie-Hellman Key Excahange: 
+  - Difiie-Hellman Key Excahange:
     - https://www.youtube.com/watch?v=NmM9HA2MQGI
     - https://www.youtube.com/watch?v=Yjrfm_oRO0w
     - https://www.youtube.com/user/Computerphile/playlists
@@ -21,7 +21,7 @@ How Secure Shell Works (SSH) - Computerphile: https://youtu.be/ORcvSkgdA58
 #### 4. Authenticate User
   - Using passwords
   - Using RSA
-  
+
 ## SSH Into A Server
 #### Generating public/private rsa key pair
 ```shell
@@ -30,7 +30,7 @@ $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -f "id_rsa_github"
 #### Adding my ssh key to ssh-agent
 ```shell
 $ ssh-add ~/.ssh/id_rsa_github
-  Identity added: /path/id_rsa_github  <-- check this message 
+  Identity added: /path/id_rsa_github  <-- check this message
 
 # to check added the key list
 $ ssh-add -l
@@ -48,6 +48,16 @@ $ cat id_rsa_github.pub
 #### Copy a repo url with the ssh option
 ```shell
 $ git clone {ssh git clone url}
+```
+
+## Switching remote URLs from HTTPS to SSH
+Link: https://docs.github.com/en/free-pro-team@latest/github/using-git/changing-a-remotes-url#switching-remote-urls-from-https-to-ssh
+#### Copy a repo url with the ssh option
+```shell
+# Change your remote's URL from HTTPS to SSH with the git remote set-url command.
+$ git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
+# Verify that the remote URL has changed.
+$ git remote -v
 ```
 
 ## How to Connect
