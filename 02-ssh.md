@@ -11,7 +11,7 @@ How Secure Shell Works (SSH) - Computerphile: https://youtu.be/ORcvSkgdA58
   - Difiie-Hellman Key Excahange:
     - https://www.youtube.com/watch?v=NmM9HA2MQGI
     - https://www.youtube.com/watch?v=Yjrfm_oRO0w
-    - https://www.youtube.com/user/Computerphile/playlists
+    - https://www.youtube.com/watch?v=vsXMMT2CqqE&t=
     - https://www.youtube.com/watch?v=NF1pwjL9-DE
   - Uses two separate keys (public and private) for encryption and decryption
   - More time consuming than Symmetric Encryption
@@ -37,12 +37,14 @@ $ ssh-add -l
 ```
 
 ## Set up SSH on GitHub
+* Link: https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh
+* Link: https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/troubleshooting-ssh
 #### Check my public key and copy it
 ```shell
 $ cat id_rsa_github.pub
 ```
 #### Go to GitHub > Setting > SSH and GPG keys > "New SSH Keys" > add Title and paste the content of the id_rsa_github.pub > Add SSH Key
-- Setup-ssh-for-github: https://github.com/antonykidis/Setup-ssh-for-github/blob/master/Setup-ssh-on-github.pdf
+* Setup-ssh-for-github: https://github.com/antonykidis/Setup-ssh-for-github/blob/master/Setup-ssh-on-github.pdf
 
 ## Git clone with SSH key
 #### Copy a repo url with the ssh option
@@ -51,10 +53,11 @@ $ git clone {ssh git clone url}
 ```
 
 ## Switching remote URLs from HTTPS to SSH
-Link: https://docs.github.com/en/free-pro-team@latest/github/using-git/changing-a-remotes-url#switching-remote-urls-from-https-to-ssh
+* Link: https://docs.github.com/en/free-pro-team@latest/github/using-git/changing-a-remotes-url#switching-remote-urls-from-https-to-ssh
 ```shell
 # Change your remote's URL from HTTPS to SSH with the git remote set-url command.
 $ git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
+
 # Verify that the remote URL has changed.
 $ git remote -v
 ```
