@@ -40,6 +40,30 @@ To improve User Experience
     - https://stackoverflow.com/questions/985431/max-parallel-http-connections-in-a-browser
 
 ## Critical Render Path
-  - Minimize files and limit the strips from backends to frontends
+> "https://dimension85.com/images/critical-render-path-large.jpg"
+
+<img src="https://dimension85.com/images/critical-render-path-large.jpg">
+
+  - References
     - https://developer.mozilla.org/en-US/docs/Web/Performance/Critical_rendering_path
+    - https://www.freecodecamp.org/news/an-introduction-to-web-performance-and-the-critical-rendering-path-ce1fb5029494/
     - https://bitsofco.de/understanding-the-critical-rendering-path/
+
+#### 1. Constructing the Object Model
+  - https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model
+#### 2. Render-tree Construction, Layout, and Paint
+  - https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction
+#### 3. Render Blocking CSS
+  - https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-blocking-css
+#### 4. Adding Interactivity with JavaScript
+  - https://developers.google.com/web/fundamentals/performance/critical-rendering-path/adding-interactivity-with-javascript
+#### 5. Measuring the Critical Rendering Path
+  - https://developers.google.com/web/fundamentals/performance/critical-rendering-path/measure-crp
+#### 6. Analyzing Critical Rendering Path Performance
+  - https://developers.google.com/web/fundamentals/performance/critical-rendering-path/analyzing-crp
+#### 7. Optimizing the Critical Rendering Path
+  - https://developers.google.com/web/fundamentals/performance/critical-rendering-path/optimizing-critical-rendering-path
+#### 8. PageSpeed Rules and Recommendations
+  - https://developers.google.com/web/fundamentals/performance/critical-rendering-path/page-speed-rules-and-recommendations
+### * Introduction to HTTP/2
+  - https://developers.google.com/web/fundamentals/performance/http2
