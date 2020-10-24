@@ -65,5 +65,24 @@ To improve User Experience
   - https://developers.google.com/web/fundamentals/performance/critical-rendering-path/optimizing-critical-rendering-path
 #### 8. PageSpeed Rules and Recommendations
   - https://developers.google.com/web/fundamentals/performance/critical-rendering-path/page-speed-rules-and-recommendations
-### * Introduction to HTTP/2
+### * Introduction to HTTP/2 and HTTP/3
   - https://developers.google.com/web/fundamentals/performance/http2
+  - https://blog.cloudflare.com/http3-the-past-present-and-future/
+
+## Webpage Performance Test Sites
+  - Google PageSpeed Insights: https://developers.google.com/speed/pagespeed/insights/
+  - WebPageTest: https://www.webpagetest.org/
+  - https://phoenixnap.com/kb/best-website-speed-performance-test-tools
+  - https://www.thinkwithgoogle.com/feature/testmysite/
+  - https://pageweight.imgix.com/?ref=producthunt
+
+## Prefetching, preloading, prebrowsing
+  - https://css-tricks.com/prefetching-preloading-prebrowsing/
+
+## Other Resources to Reference
+  - http://youmightnotneedjquery.com/
+  - https://developers.google.com/web/tools/chrome-devtools/rendering-tools
+  - https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference
+  - https://developers.google.com/web/updates/2017/11/devtools-release-notes#perf-monitor
+  - https://developers.google.com/web/tools/lighthouse/
+  - https://web.dev/fast/#optimize-your-images
