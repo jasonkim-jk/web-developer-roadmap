@@ -8,7 +8,7 @@ To improve User Experience
     - Optimized code
     - Progressive web app
 #### 2. We can improve the transfer of our files over the wire network latency
-  - Every request needs time time to travel from client to the server and back to our network
+  - Every request needs time to travel from client to the server and back to our network
     - Minimize files
     - Minimize delivery
 #### 3. We can improve the processing done on the backend
