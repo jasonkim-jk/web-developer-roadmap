@@ -108,3 +108,8 @@ Webpack is a static module bundler for modern JavaScript applications
 * Plugins
 * Mode
 * Browser Compatibility
+
+#### Easy Configuration
+* https://www.valentinog.com/blog/webpack/
+* Using Create App: https://createapp.dev/webpack
+* webpack.config.js Guide: https://webpack.js.org/configuration/
