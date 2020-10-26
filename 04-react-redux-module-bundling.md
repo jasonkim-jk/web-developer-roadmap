@@ -1,13 +1,13 @@
-# React + Redux
+# React + Redux + Webpack
 Allow us to fix many things
 * Writing code that is more maintainable
 * Writing code that is more readable
 * Writing code that creates less bugs
-- Bundling: Webpack
 - State management: Redux
+- Bundling: Webpack
 
 ## Frameworks and Libraries for Frontend
-* Angular, Vue, React
+* Angular, Vue, React ([npm-trends](https://www.npmtrends.com/angular-vs-react-vs-vue))
   * Which tool is good for the job at hand? Each tool has its pros and conds
 
 ## React
@@ -93,3 +93,18 @@ Redux is a library that makes state management easier
 ## Code Structure
 * https://redux.js.org/faq/code-structure
 * https://www.pluralsight.com/guides/how-to-organize-your-react-+-redux-codebase
+
+## Webpack
+Webpack is a static module bundler for modern JavaScript applications
+#### Popular bundlers([npm-trends](https://www.npmtrends.com/parcel-vs-rollup-vs-webpack))
+* [Webpack](https://webpack.js.org/): bunch of configuration, for a large project
+* [Parcel](https://parceljs.org/): zero configuration, for a small or private project
+* [Rollup.js](https://rollupjs.org/guide/en/): rolling out your own NPM packages
+
+#### [Core Concepts](https://webpack.js.org/concepts/)
+* Entry
+* Output
+* Loaders
+* Plugins
+* Mode
+* Browser Compatibility
