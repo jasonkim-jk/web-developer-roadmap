@@ -3,6 +3,13 @@
 * Progressive web app: making web applications as close to native mobile apps as possible
 
 ## Code Optimatation
+* Only load what's neede:
+  * Code splitting
+  * Tree shaking
+    * https://developers.google.com/web/fundamentals/performance/optimizing-javascript/tree-shaking/
+* Avoid blocking main thread
+* Avoid memory leaks
+* Avoid multiple re-rendering
 
 #### Webpage Performance Profiling using Chrome DevTools
 1. Get Started With Analyzing Runtime Performance
@@ -43,6 +50,7 @@ To send down a minimally functional page compsed of just HTML, JavaScript and CS
 
 ## React Performance Optimizations
 #### Profiling Components with the Chrome Performance Tab
+* Append ***?react_perf*** to your local server URL (e.g. localhost:3000/***?react_perf***) and visit that URL in a browse
 * https://reactjs.org/docs/optimizing-performance.html#profiling-components-with-the-chrome-performance-tab
 <img src="https://reactjs.org/static/64d522b74fb585f1abada9801f85fa9d/1ac66/react-perf-chrome-timeline.png">
 
