@@ -40,3 +40,23 @@ To send down a minimally functional page compsed of just HTML, JavaScript and CS
 * https://reactjs.org/docs/code-splitting.html#reactlazy
 * https://loadable-components.com/docs/loadable-vs-react-lazy
 * https://reactjs.org/docs/concurrent-mode-suspense.html
+
+## React Performance Optimizations
+#### Profiling Components with the Chrome Performance Tab
+* https://reactjs.org/docs/optimizing-performance.html#profiling-components-with-the-chrome-performance-tab
+<img src="https://reactjs.org/static/64d522b74fb585f1abada9801f85fa9d/1ac66/react-perf-chrome-timeline.png">
+
+#### Profiling Components with the DevTools Profiler
+* React Developer Tools: https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
+* react-devtools: https://www.npmjs.com/package/react-devtools
+
+#### React setState is asynchronous
+* https://medium.com/@wereHamster/beware-react-setstate-is-asynchronous-ce87ef1a9cf3
+* https://vasanthk.gitbooks.io/react-bits/content/patterns/19.async-nature-of-setState.html
+
+#### Stateless Component vs Pure Component
+* https://medium.com/groww-engineering/stateless-component-vs-pure-component-d2af88a1200b
+
+#### Why Did You Render
+to notify you about avoidable re-renders
+* https://www.npmjs.com/package/@welldone-software/why-did-you-render
