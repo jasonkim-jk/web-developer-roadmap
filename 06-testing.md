@@ -93,3 +93,11 @@ A typical snapshot test case renders a UI component, takes a snapshot, then comp
 * https://www.reactnative.guide/7-testing/7.3-enzyme-testing.html
 * https://enzymejs.github.io/enzyme/docs/api/ReactWrapper/state.html
 * https://www.valentinog.com/blog/testing-react/
+
+## Testing Connected Components
+* https://www.robinwieruch.de/react-connected-component-test
+* https://hacks.mozilla.org/2018/04/testing-strategies-for-react-and-redux/
+
+## Testing Reducers
+* https://www.digitalocean.com/community/tutorials/react-testing-redux-reducers
+* https://redux.js.org/recipes/writing-tests
