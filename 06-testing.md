@@ -61,3 +61,35 @@ A method in software development where individual units of source code assets or
 * https://jestjs.io/docs/en/mock-functions
 * https://medium.com/swlh/javascript-testing-jest-spies-and-mocks-add0048ba345
 * https://www.jstwister.com/post/unit-testing-beginners-guide-spying-fake-timers/
+
+
+## Enzyme
+Enzyme is a JavaScript Testing utility for React that makes it easier to test your React Components' output. You can also manipulate, traverse, and in some ways simulate runtime given the output.
+
+#### Important Methods
+###### Shallow(Most using), Mount, Render
+* https://enzymejs.github.io/enzyme/docs/api/
+* https://gist.github.com/fokusferit/e4558d384e4e9cab95d04e5f35d4f913
+* https://medium.com/@Yohanna/difference-between-enzymes-rendering-methods-f82108f49084
+* https://blog.usejournal.com/testing-with-jest-and-enzyme-in-react-part-4-shallow-vs-mount-in-enzyme-d60cad73f85c
+
+## Snapshot Test
+A typical snapshot test case renders a UI component, takes a snapshot, then compares it to a reference snapshot file stored alongside the test. The test will fail if the two snapshots do not match: either the change is unexpected, or the reference snapshot needs to be updated to the new version of the UI component.
+
+<img src="https://miro.medium.com/max/700/1*EDPrWEKqMClrMO6zia570w.png">
+<img src="https://miro.medium.com/max/700/1*PgpFYJCIwbUl_7c_EMprwQ.png">
+> https://medium.com/@luisvieira_gmr/snapshot-testing-react-components-with-jest-3455d73932a4
+
+* https://www.digitalocean.com/community/tutorials/how-to-write-snapshot-tests-for-react-components-with-jest
+* https://jestjs.io/docs/en/snapshot-testing
+
+## Jest Coverage Report
+<img src="https://cdn-media-1.freecodecamp.org/images/1*8eP9WhWo1VrmS_kUg7LssA.png">
+
+* https://www.freecodecamp.org/news/get-your-npm-package-covered-with-jest-and-codecov-9a4cb22b93f4/
+* https://jestjs.io/docs/en/cli#--coverageboolean
+
+## Testing React Component’s State
+* https://www.reactnative.guide/7-testing/7.3-enzyme-testing.html
+* https://enzymejs.github.io/enzyme/docs/api/ReactWrapper/state.html
+* https://www.valentinog.com/blog/testing-react/
