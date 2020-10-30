@@ -1,6 +1,8 @@
 # Testing
 A method in software development where individual units of source code assets or programs are tested to see whether they work properly
 
+* https://blog.usejournal.com/lean-testing-or-why-unit-tests-are-worse-than-you-think-b6500139a009
+
 <img src="https://miro.medium.com/max/638/0*74Xfdpuqz8gDMcVI">
 
 > https://medium.com/@jylglim/enzyme-vs-react-testing-library-a-tdd-bdd-comparison-with-examples-7b9f0b380a48
@@ -78,6 +80,7 @@ A typical snapshot test case renders a UI component, takes a snapshot, then comp
 
 <img src="https://miro.medium.com/max/700/1*EDPrWEKqMClrMO6zia570w.png">
 <img src="https://miro.medium.com/max/700/1*PgpFYJCIwbUl_7c_EMprwQ.png">
+
 > https://medium.com/@luisvieira_gmr/snapshot-testing-react-components-with-jest-3455d73932a4
 
 * https://www.digitalocean.com/community/tutorials/how-to-write-snapshot-tests-for-react-components-with-jest
