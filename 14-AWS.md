@@ -48,3 +48,9 @@ Microservices architecture refers to a technique that gives modern developers a 
 
 * https://www.tibco.com/reference-center/what-is-microservices-architecture
 * https://smartbear.com/solutions/microservices/
+
+## AWS Lambda
+#### Serverless Architectures with AWS Lambda
+<img src="https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2018/04/23/serverless-arch-baord.png">
+
+* https://aws.amazon.com/blogs/architecture/serverless-architectures-with-aws-lambda-overview-and-best-practices/
