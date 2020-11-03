@@ -29,6 +29,9 @@ $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -f "id_rsa_github"
 ```
 #### Adding my ssh key to ssh-agent
 ```shell
+# Start the ssh-agent in the background
+$ eval "$(ssh-agent -s)"
+
 $ ssh-add ~/.ssh/id_rsa_github
   Identity added: /path/id_rsa_github  <-- check this message
 
