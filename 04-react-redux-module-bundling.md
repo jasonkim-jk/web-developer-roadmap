@@ -64,6 +64,13 @@ Redux is a library that makes state management easier
 
 <img src="https://facebook.github.io/flux/img/overview/flux-simple-f8-diagram-1300w.png">
 
+* Korean Version:
+  * Redux(1) - Flux Design Pattern: https://blog.naver.com/backsajang420/221368106022
+    * https://code-cartoons.com/a-cartoon-guide-to-flux-6157355ab207
+  * Redux(2) - Flux 의 아쉬운점? Redux 의 등장: https://blog.naver.com/backsajang420/221371244288
+  * Redux(3) - Redux 캐릭터(keyword 및 flow): https://blog.naver.com/backsajang420/221371503411
+  * Redux(4) - Reducer가 순수(pure)함수여야만 하는 이유: https://blog.naver.com/backsajang420/221540696724
+
 #### Redux Installation
 * https://redux.js.org/introduction/installation
 
