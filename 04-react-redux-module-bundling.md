@@ -64,12 +64,19 @@ Redux is a library that makes state management easier
 
 <img src="https://facebook.github.io/flux/img/overview/flux-simple-f8-diagram-1300w.png">
 
-* Korean Version:
-  * Redux(1) - Flux Design Pattern: https://blog.naver.com/backsajang420/221368106022
-    * https://code-cartoons.com/a-cartoon-guide-to-flux-6157355ab207
-  * Redux(2) - Flux 의 아쉬운점? Redux 의 등장: https://blog.naver.com/backsajang420/221371244288
-  * Redux(3) - Redux 캐릭터(keyword 및 flow): https://blog.naver.com/backsajang420/221371503411
-  * Redux(4) - Reducer가 순수(pure)함수여야만 하는 이유: https://blog.naver.com/backsajang420/221540696724
+#### Korean Version:
+>  * Redux(1) - Flux Design Pattern: https://blog.naver.com/backsajang420/221368106022
+>    * https://code-cartoons.com/a-cartoon-guide-to-flux-6157355ab207
+>  * Redux(2) - Flux 의 아쉬운점? Redux 의 등장: https://blog.naver.com/backsajang420/221371244288
+>  * Redux(3) - Redux 캐릭터(keyword 및 flow): https://blog.naver.com/backsajang420/221371503411
+>  * Redux(4) - Reducer가 순수(pure)함수여야만 하는 이유: https://blog.naver.com/backsajang420/221540696724
+
+
+>  * react-tutorial 고급: https://blog.naver.com/backsajang420/221371261213
+>  * react-tutorial 고급 (Redux 핵심 키워드 상세설명): https://blog.naver.com/backsajang420/221372215677
+> * react-tutorial 고급 (React 와 함께쓰는 Redux, 프로젝트 구조): https://blog.naver.com/backsajang420/221378614598
+>   * ***react-skeleton 구조 변경:*** https://blog.naver.com/backsajang420/221373401122
+> * ***react-tutorial 고급 (React 와 함께쓰는 Redux, 코드작성):*** https://blog.naver.com/backsajang420/221379395866
 
 #### Redux Installation
 * https://redux.js.org/introduction/installation
