@@ -66,7 +66,8 @@ Redux is a library that makes state management easier
 
 * MVC vs Flux vs Redux – The Real Differences
   * https://www.clariontech.com/blog/mvc-vs-flux-vs-redux-the-real-differences#:~:text=The%20primary%20difference%20of%20Flux,one%20region%20of%20the%20app
-
+  * https://medium.com/@dakota.lillie/flux-vs-redux-a-comparison-bbd5000d5111
+  
 #### Korean Version:
 >  * Redux(1) - Flux Design Pattern: https://blog.naver.com/backsajang420/221368106022
 >    * https://code-cartoons.com/a-cartoon-guide-to-flux-6157355ab207
